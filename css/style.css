@@ -78,6 +78,12 @@ nav .navbar-nav  .nav-link.active::after {
   background-color: var(--color-black);
   transition: all 1s;
 }
+@media(max-width:800px){
+  nav .navbar-nav  .nav-link.active::after{
+    left: 10%;
+    width: 100px;
+  }
+}
 /* *********************************************************** */
 /* Start Header */
 header {
