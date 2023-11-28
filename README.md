@@ -21,4 +21,4 @@ This project, **Daniels**, was developed as part of an exam on Bootstrap at Rout
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/Daniels.git
+   git clone https://github.com/AhmedEmadkh/Daniels.git
