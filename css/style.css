@@ -375,7 +375,7 @@ header .overlay .container h1 span {
 .team-card .socials ul {
   text-align: center;
   position: relative;
-  top: 280px;
+  top: 180px;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -398,7 +398,7 @@ header .overlay .container h1 span {
   color: var(--color-black);
 }
 .img-text {
-  padding: 25px;
+  padding: 18px;
   color: #fff;
   text-align: center;
 }
