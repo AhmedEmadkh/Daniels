@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="./imgs/favicon.ico">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Media CSS -->
+  <link rel="stylesheet" href="./css/media.css">
+  <title>DANIELS</title>
+</head>
+
+<body>
+  <nav id="navbar-example2" class="navbar-expand-lg navbar bg-transparent px-3 mb-3 fixed-top">
+    <div class="container py-3">
+      <a class="navbar-brand text-white fw-bolder" id="logo" href="#">DANIELS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars text-white" id="bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-md-center">
+          <li class="nav-item fw-bold mx-3">
+            <a class="nav-link text-white" href="#home">Home</a>
+          </li>
+          <li class="nav-item fw-bold mx-3">
+            <a class="nav-link text-white" href="#about">About</a>
+          </li>
+          <li class="nav-item fw-bold mx-3">
+            <a class="nav-link text-white" href="#service">Services</a>
+          </li>
+          <li class="nav-item fw-bold mx-3">
+            <a class="nav-link text-white" href="#work">Work</a>
+          </li>
+          <li class="nav-item fw-bold mx-3">
+            <a class="nav-link text-white" href="#clients">Clients</a>
+          </li>
+          <li class="nav-item fw-bold mx-3">
+            <a class="nav-link text-white" href="#team">Team</a>
+          </li>
+          <li class="nav-item fw-bold mx-3">
+            <a class="nav-link text-white" href="#contact">Contacts</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <!-- Start header -->
+    <header class="vh-100 position-relative" id="home" data-bs-spy="scroll" data-bs-target="#navbar-example2">
+      <div class="overlay h-100 w-100 position-absolute">
+        <div class="container position-absolute">
+          <h5 class="text-white">Hello</h5>
+          <h1 class="text-white">I Am <span id="job-type" class="typing-animation text-white"></span></h1>
+          <div class="header-socials d-flex justify-content-center mt-5">
+            <div class="icon mx-4 rounded-circle"><i class="fa-brands fa-facebook-f text-white"></i></div>
+            <div class="icon mx-4 rounded-circle"><i class="fa-brands fa-twitter text-white"></i></div>
+            <div class="icon mx-4 rounded-circle"><i class="fa-brands fa-linkedin-in text-white"></i></div>
+            <div class="icon mx-4 rounded-circle"><i class="fa-brands fa-behance text-white"></i></div>
+            <div class="icon mx-4 rounded-circle"><i class="fa-brands fa-youtube text-white"></i></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End header -->
+    <!-- Start About -->
+    <section class="about section-padding my-4" id="about">
+      <div class="container px-5">
+        <div class="row g-5">
+          <div class="col-md-5">
+            <div class="about-img position-relative">
+              <img src="./imgs/hero.jpg" alt="man" class="w-100">
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="content">
+              <h3 class="text-black fw-bolder mb-1">About Me</h3>
+              <span class="text-grey text-uppercase letter-space">UI / UX DESIGNER & WEB DEVELOPER</span>
+              <p class="mt-3">
+                I am <span class="fw-bolder text-grey">Jerry Daniels</span> Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also
+                the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset sheets containing</p>
+              <div class="skills my-4">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="skill mb-4">
+                      <h6 class="z-2 position-relative text-white">Web Design</h6>
+                      <span data-value="95%"></span>
+                    </div>
+                    <div class="skill mb-4">
+                      <h6 class="z-2 position-relative text-white">Branding</h6>
+                      <span data-value="80%" class="w-80"></span>
+                    </div>
+                    <div class="skill mb-4">
+                      <h6 class="z-2 position-relative text-white">Development</h6>
+                      <span data-value="90%" class="w-90"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="buttons">
+                <buttuon class="first my-4""><a href=" #0" download
+                  class="text-decoration-none text-white bg-black btn px-4">Download CV</a></buttuon>
+                <buttuon class="second""><a href=" #contact"
+                  class="text-decoration-none text-black bg-white btn border border-1 border-black px-4">Contact Me</a>
+                </buttuon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+    <!-- Start Service -->
+    <section class="service section-padding" id="service">
+      <div class="container">
+        <div class="section-heading">
+          <h3>Service.</h3>
+        </div>
+      </div>
+      <div class="container my-5">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="card text-center d-flex flex-column justify-content-center align-items-center py-5 px-3">
+              <span class="icon d-flex justify-content-center align-items-center"><i
+                  class="fa-solid fa-laptop"></i></span>
+              <h6 class="fw-bolder text-black">Web Design</h6>
+              <p class="text-grey mt-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center d-flex flex-column justify-content-center align-items-center py-5 px-3">
+              <span class="icon d-flex justify-content-center align-items-center"><i
+                  class="fa-solid fa-bullhorn"></i></span>
+              <h6 class="fw-bolder text-black">Branding</h6>
+              <p class="text-grey mt-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center d-flex flex-column justify-content-center align-items-center py-5 px-3">
+              <span class="icon d-flex justify-content-center align-items-center"><i
+                  class="fa-solid fa-umbrella"></i></span>
+              <h6 class="fw-bolder text-black">Development</h6>
+              <p class="text-grey mt-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center d-flex flex-column justify-content-center align-items-center py-5 px-3">
+              <span class="icon d-flex justify-content-center align-items-center"><i
+                  class="fa-regular fa-gem"></i></span>
+              <h6 class="fw-bolder text-black">Creative Design</h6>
+              <p class="text-grey mt-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center d-flex flex-column justify-content-center align-items-center py-5 px-3">
+              <span class="icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-tv"></i></span>
+              <h6 class="fw-bolder text-black">Fully Responsive</h6>
+              <p class="text-grey mt-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center d-flex flex-column justify-content-center align-items-center py-5 px-3">
+              <span class="icon d-flex justify-content-center align-items-center"><i
+                  class="fa-solid fa-camera"></i></span>
+              <h6 class="fw-bolder text-black">Retina Ready</h6>
+              <p class="text-grey mt-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's
+                standard dummy text ever
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service -->
+    <!-- Start Portfolio -->
+    <section class="work section-padding" id="work">
+      <div class="container">
+        <div class="section-heading">
+          <h3>Portfolio.</h3>
+        </div>
+      </div>
+      <div class="container my-5">
+        <ul class="nav nav-pills mb-3 w-fit mx-auto" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-brand"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Brands</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-design"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Design</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-graphic"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Graphic</button>
+          </li>
+        </ul>
+        <div class="tab-content my-5" id="pills-tabContent">
+          <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/1.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/2.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/3.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/4.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/5.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/6.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-brand" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/4.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/6.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/2.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/5.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-graphic" role="tabpanel" aria-labelledby="pills-contact-tab"
+            tabindex="0">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/1.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/3.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="protfolio-card">
+                  <img src="./imgs/portfolio/5.jpg" class="w-100" alt="">
+                  <div class="overlay">
+                    <h6>WEB DESIGN</h6>
+                    <div class="icons mt-3">
+                      <span><i class="fa-solid fa-link"></i></span>
+                      <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio -->
+    <!-- Start Testimonials -->
+    <section class="clients py-5" id="clients">
+      <div class="container">
+        <div class="section-heading">
+          <h3>Testimonials.</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col-md-12">
+            <div class="slider-box position-relative">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"
+                data-bs-touch="true">
+                <div class="carousel-indicators position-absolute top-100 gap-2">
+                  <button class="navigation active" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                  <button class="navigation" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button class="navigation" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div
+                      class="card text-center bg-transparent border-0 d-flex flex-column justify-content-center align-items-center">
+                      <div class="carousel-img rounded-circle overflow-hidden my-4">
+                        <img src="./imgs/1_New1.jpg" class="w-100" alt="man">
+                      </div>
+                      <p class="text-grey">Lorem Ipsum has been the industry's standard dummy text ever since the when
+                        an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p>
+                      <h2 class="text-black h6 fw-bold mt-3">Alex Smith</h2>
+                      <span class="text-grey fw-bolder fs-6">Envato Customer</span>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div
+                      class="card text-center bg-transparent border-0 d-flex flex-column justify-content-center align-items-center">
+                      <div class="carousel-img rounded-circle overflow-hidden my-4">
+                        <img src="./imgs/1_New1.jpg" class="w-100" alt="man">
+                      </div>
+                      <p class="text-grey">Lorem Ipsum has been the industry's standard dummy text ever since the when
+                        an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p>
+                      <h2 class="text-black h6 fw-bold mt-3">Alex Smith</h2>
+                      <span class="text-grey fw-bolder fs-6">Envato Customer</span>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div
+                      class="card text-center bg-transparent border-0 d-flex flex-column justify-content-center align-items-center">
+                      <div class="carousel-img rounded-circle overflow-hidden my-4">
+                        <img src="./imgs/1_New1.jpg" class="w-100" alt="man">
+                      </div>
+                      <p class="text-grey">Lorem Ipsum has been the industry's standard dummy text ever since the when
+                        an unknown printer
+                        took a galley of type and scrambled it to make a type specimen book.</p>
+                      <h2 class="text-black h6 fw-bold mt-3">Alex Smith</h2>
+                      <span class="text-grey fw-bolder fs-6">Envato Customer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials -->
+    <!-- Start Couner -->
+    <section class="counter">
+      <div class="container">
+        <div class="row align-items-center w-100 g-4">
+          <div class="col-md-3">
+            <div class="count d-flex align-items-center flex-column">
+              <div class="icon-count rounded-circle d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-user-group fa-3x text-black"></i>
+              </div>
+              <p class="mt-4 fs-3 text-black fw-bolder">850</p>
+              <span class=" text-grey fw-bolder">Happy Customers
+              </span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="count d-flex align-items-center flex-column">
+              <div class="icon-count rounded-circle d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-thumbs-up fa-3x "></i>
+              </div>
+              <p class="mt-4 fs-3 text-black fw-bolder">230</p>
+              <span class=" text-grey fw-bolder">Complete Projects</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="count d-flex align-items-center flex-column">
+              <div class="icon-count rounded-circle d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-bullhorn fa-3x "></i>
+              </div>
+              <p class="mt-4 fs-3 text-black fw-bolder">9450</p>
+              <span class=" text-grey fw-bolder">Lines Of Code</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="count d-flex align-items-center flex-column">
+              <div class="icon-count rounded-circle d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-cloud-arrow-down fa-3x "></i>
+              </div>
+              <p class="mt-4 fs-3 text-black fw-bolder">780</p>
+              <span class=" text-grey fw-bolder">Files Downloaded</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- End Counter -->
+    <!-- Start Team -->
+    <section class="team section-padding" id="team">
+      <div class="container">
+        <div class="section-heading">
+          <h3>Our Team.</h3>
+        </div>
+      </div>
+      <div class="container my-4">
+        <div class="row g-3">
+          <div class="col-md-4 col-sm-6">
+            <div class="team-card">
+              <div class="img-container">
+                <img src="./imgs/1.jpg" class="w-100" alt="team member">
+                <div class="socials">
+                  <ul class="list-unstyled">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="img-text">
+                <h4>John Doe</h4>
+                <h5>FRONT-END DEVELOPER</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="team-card">
+              <div class="img-container">
+                <img src="./imgs/2.jpg" class="w-100" alt="team member">
+                <div class="socials">
+                  <ul class="list-unstyled">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="img-text">
+                <h4>Dave Wood</h4>
+                <h5>BACK-END DEVELOPER</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="team-card">
+              <div class="img-container">
+                <img src="./imgs/1.jpg" class="w-100" alt="team member">
+                <div class="socials">
+                  <ul class="list-unstyled">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="img-text">
+                <h4>Claire Chedd</h4>
+                <h5>BACK-END DEVELOPER</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Team -->
+    <!-- Start Contact -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h3>Contact Us.</h3>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="offset-md-1 col-md-10">
+            <div class="contact-info">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="contact-item">
+                    <span class="icon d-flex justify-content-center align-items-center"><i
+                        class="fa-solid fa-location-arrow"></i></span>
+                    <h6>Address</h6>
+                    <p>6834 Hollywood Blvd - Los Angeles CA</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="contact-item">
+                    <span class="icon d-flex justify-content-center align-items-center"><i
+                        class="fa-solid fa-envelope"></i></span>
+                    <h6>Email</h6>
+                    <p>Support@website.com</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="contact-item">
+                    <span class="icon d-flex justify-content-center align-items-center"><i
+                        class="fa-solid fa-phone"></i></span>
+                    <h6>Phone</h6>
+                    <p>+20 010 2517 8918</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form>
+            <div class="row g-3 mt-3">
+              <div class="col-md-6">
+                <input type="text" placeholder="Name" class="form-box" name="name">
+              </div>
+              <div class="col-md-6">
+                <input type="email" placeholder="Email" class="form-box" name="email">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-12">
+                <textarea name="message" cols="30" class="form-box" rows="5" placeholder="Message"></textarea>
+              </div>
+            </div>
+          </form>
+          <div class="buttons">
+            <button type="submit" class="first my-4 btn">
+              <a href="" class="text-decoration-none text-white bg-black btn px-4">Submit</a>
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Contact -->
+    <!--Start Footer -->
+    <footer class="bg-black py-2">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center flex-column align-items-center">
+            <div class="copy-write text-center">
+              <p>Copy Right 2018 &copy; By Daniels All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End Footer -->
+
+  </main>
+
+
+
+
+  <!-- Scroll behaviour for the navbar -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      var lastScrollTop = 0;
+
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        var homeSectionHeight = $('#home').height();
+
+        if (scroll > lastScrollTop) {
+          // Scrolling down
+          if (scroll >= homeSectionHeight) {
+            $('#navbar-example2').removeClass('bg-transparent').addClass('bg-white');
+            $('.navbar-brand').removeClass('text-white').addClass('text-black');
+            $('.nav-link').removeClass('text-white').addClass('text-black');
+            $('#bars').removeClass('text-white').addClass('text-black');
+          }
+        } else {
+          // Scrolling up
+          if (scroll < homeSectionHeight) {
+            $('#navbar-example2').removeClass('bg-white').addClass('bg-transparent');
+            $('.navbar-brand').removeClass('text-black').addClass('text-white');
+            $('.nav-link').removeClass('text-black').addClass('text-white');
+            $('#bars').removeClass('text-black').addClass('text-white');
+          }
+        }
+
+        lastScrollTop = scroll;
+      });
+    });
+  </script>
+  <!-- *********************************************************** -->
+
+  <!-- Typin animation with JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var type = new Typed(".typing-animation", {
+      strings: ["", "", "Designer", "", "Developer", "", "Larry Daniels"],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true
+    })
+  </script>
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
